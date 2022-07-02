@@ -1,0 +1,16 @@
+{
+  "name": "teste_tecnico_bruno_kutzke",
+  "version": "1.0.0",
+  "description": "Projeto que contém os cenários de teste pedidos no teste técnico da Audaces.",
+  "main": "index.js",
+  "scripts": {
+    "all:test:scenarios:chrome": "cypress run --headless --browser chrome --spec cypress/integration/**/*.spec.js",
+    "all:test:scenarios:electron": "cypress run --headless --browser electron --spec cypress/integration/**/*.spec.js",
+    "cypress:open": "cypress open"
+  },
+  "author": "Bruno Corso Kutzke",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0"
+  }
+}

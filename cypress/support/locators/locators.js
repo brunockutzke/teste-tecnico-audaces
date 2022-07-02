@@ -1,0 +1,32 @@
+const locators = {
+        URL_GOOGLE: "http://www.google.com",
+        URL_AUDACES: "https://audaces.com/",
+        INPUT_SEARCH: "input[type='text']",
+        BTN_GOOGLE_SEARCH: "input[value='Pesquisa Google']",
+        BTN_OPTION_IMAGES: ".hdtb-mitem a",
+        BTN_SELECT_IMAGE: "img[alt='Imagens de Sunshine, fotografias de stock Sunshine | Depositphotos']",
+        BTN_LINK_AUDACES: "[href='https://audaces.com/']",
+        TXT_LINK_AUDACES: 'https://audaces.com/',
+        BTN_LOGIN: "button[class='btn']",
+        ERROR_MSG_LOGIN: ".ng-binding",
+        INPUT_LOGIN: "#username",
+        INPUT_PASSWORD: "#password",
+        BTN_ENTER_HOME: ".bg_gradiente",
+        URL_LOGIN_PAGE: "https://login.audaces.com/core/login?signin",
+        URL_FORGOT_PASSWORD: '[href="https://id.audaces.com/password/lost"]',
+        INPUT_EMAIL_RECOVERY_PASSWORD: "input[type='email']",
+        MSG_SUCCESS_RECOVERY_PASSWORD: '.alert-success',
+        BTN_PRODUCTS: ".dropdown-button",
+        BTN_AUDACES_360: '[href="https://audaces.com/audaces-360/"]',
+        BTN_IDEA: '[href="https://audaces.com/audaces-360/idea/"]',
+        BTN_4D: '[href="https://audaces.com/audaces-360/4d/"]',
+        BTN_DIGIFLASH: '[href="https://audaces.com/audaces-360/digiflash/"]',
+        BTN_MOLDES: '[href="https://audaces.com/audaces-360/moldes/"]',        
+        BTN_ENCAIXE: '[href="https://audaces.com/audaces-360/encaixe/"]',
+        BTN_SUPERA: '[href="https://audaces.com/audaces-360/supera/"]',
+        TXT_PRODUCTS_NAMES: ".bloco_a a",
+        TXT_PRODUCTS_DESCRIPTIONS: ".bloco_a p",
+        MSG_ERROR_RECOVERY_PASSWORD: ".control-label"
+}
+
+export default locators
